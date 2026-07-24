@@ -12,7 +12,6 @@ public class SilverScreenCinemas {
         Movie movie = new Movie();
         TheatreManager manager = new TheatreManager();
 
-        // Load Default Movies
         movie.addMovies();
 
         int choice;
