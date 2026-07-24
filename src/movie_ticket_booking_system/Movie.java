@@ -16,12 +16,12 @@ public class Movie {
 
     static HashMap<Integer, Movie> movies = new HashMap<>();
 
-    // Default Constructor
+ 
     public Movie() {
 
     }
 
-    // Parameterized Constructor
+  
     public Movie(int movieId, String movieName, String category,
                  String language, String duration, String showTimings) {
 
@@ -33,7 +33,6 @@ public class Movie {
         this.showTimings = showTimings;
     }
 
-    // Getters
     public int getMovieId() {
         return movieId;
     }
@@ -58,7 +57,7 @@ public class Movie {
         return showTimings;
     }
 
-    // Add Default Movies
+
     public void addMovies() {
 
         movies.put(101, new Movie(101, "Kalki 2898 AD", "Sci-Fi", "Telugu", "2h 45m", "10:00 AM | 2:00 PM | 6:00 PM"));
@@ -73,8 +72,6 @@ public class Movie {
         movies.put(110, new Movie(110, "Amaran", "Biography", "Tamil", "2h 49m", "10:45 AM | 2:45 PM | 6:45 PM"));
     }
 
-    // View Movies
- // View Movies
     public void viewMovies() {
 
         System.out.println("\n+---------------------------------------------------------------------------------------------------------------+");
@@ -106,7 +103,6 @@ public class Movie {
     }
       
 
-    // Search Movie
     public void searchMovie() {
 
         System.out.print("Enter Movie ID: ");
