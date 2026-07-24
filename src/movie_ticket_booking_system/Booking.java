@@ -385,10 +385,6 @@ public class Booking {
         System.out.println("==============================================");
     }
 
-    // ==========================================
-    // VIEW MY BOOKING
-    // ==========================================
-
     public static void viewMyBooking(long mobileNumber) {
 
         boolean found = false;
@@ -419,10 +415,7 @@ public class Booking {
         }
     }
 
-    // ==========================================
-    // VIEW ALL BOOKINGS
-    // ==========================================
-
+   
     public static void viewAllBookings() {
 
         if (bookings.isEmpty()) {
@@ -449,9 +442,7 @@ public class Booking {
         }
     }
 
-    // ==========================================
-    // CANCEL TICKET
-    // ==========================================
+
 
     public static void cancelTicket() {
 
@@ -487,9 +478,7 @@ public class Booking {
         System.out.println("\nBooking Cancelled Successfully.");
     }
 
-    // ==========================================
-    // REVENUE REPORT
-    // ==========================================
+ 
 
     public static void revenueReport() {
 
@@ -513,9 +502,6 @@ public class Booking {
         System.out.println("==========================================");
     }
 
-    // ==========================================
-    // GETTER METHODS
-    // ==========================================
 
     public int getBookingId() {
         return bookingId;
