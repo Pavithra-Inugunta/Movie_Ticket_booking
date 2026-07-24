@@ -1,0 +1,257 @@
+
++------------------------------------------------------+
+|******************************************************|
+|        WELCOME TO SILVER SCREEN CINEMAS              |
+|           MOVIE TICKET BOOKING SYSTEM                |
+|======================================================|
+|        Lights... Camera... Action!                   |
+|      Book Your Favourite Movie Tickets Easily!       |
+|******************************************************|
++------------------------------------------------------+
+1. Customer Registration
+2. Customer Login
+3. Theatre Manager Login
+4. Exit
+
+Enter Your Choice : 1
+
+========== CUSTOMER REGISTRATION ==========
+Enter Customer Name : Pavithra
+Enter Age : 17
+Registration Failed! Customer must be 18 years or above.
+
++------------------------------------------------------+
+|******************************************************|
+|        WELCOME TO SILVER SCREEN CINEMAS              |
+|           MOVIE TICKET BOOKING SYSTEM                |
+|======================================================|
+|        Lights... Camera... Action!                   |
+|      Book Your Favourite Movie Tickets Easily!       |
+|******************************************************|
++------------------------------------------------------+
+1. Customer Registration
+2. Customer Login
+3. Theatre Manager Login
+4. Exit
+
+Enter Your Choice : 1
+
+========== CUSTOMER REGISTRATION ==========
+Enter Customer Name : Pavithra
+Enter Age : 22
+Enter Mobile Number : 9987678987
+Create Password : Pavi@23
+
+Customer Registered Successfully.
+
++------------------------------------------------------+
+|******************************************************|
+|        WELCOME TO SILVER SCREEN CINEMAS              |
+|           MOVIE TICKET BOOKING SYSTEM                |
+|======================================================|
+|        Lights... Camera... Action!                   |
+|      Book Your Favourite Movie Tickets Easily!       |
+|******************************************************|
++------------------------------------------------------+
+1. Customer Registration
+2. Customer Login
+3. Theatre Manager Login
+4. Exit
+
+Enter Your Choice : 2
+
+========== CUSTOMER LOGIN ==========
+Enter Mobile Number : 9987678987
+Enter Password : Pavi@23
+
+Login Successful.
+Welcome Pavithra!
+
+========================================
+             CUSTOMER MENU
+========================================
+1. View Movies
+2. Search Movie
+3. Book Ticket
+4. View My Booking
+5. Cancel Ticket
+6. Logout
+
+Enter Your Choice : 1
+
++---------------------------------------------------------------------------------------------------------------+
+|                                         AVAILABLE MOVIES                                                     |
++---------------------------------------------------------------------------------------------------------------+
+| ID   | Movie Name         | Category   | Language | Duration | Morning    | Afternoon  | Evening    |
++------+--------------------+------------+----------+----------+------------+------------+------------+
+| 101  | Kalki 2898 AD      | Sci-Fi     | Telugu   | 2h 45m   | 10:00 AM   | 2:00 PM    | 6:00 PM    |
+| 102  | Pushpa 2           | Action     | Telugu   | 3h 10m   | 11:00 AM   | 3:00 PM    | 7:00 PM    |
+| 103  | Coolie             | Action     | Tamil    | 2h 40m   | 9:30 AM    | 1:30 PM    | 5:30 PM    |
+| 104  | Kingdom            | Action     | Telugu   | 2h 30m   | 10:30 AM   | 2:30 PM    | 6:30 PM    |
+| 105  | Leo                | Action     | Tamil    | 2h 44m   | 11:30 AM   | 3:30 PM    | 7:30 PM    |
+| 106  | Hi Nanna           | Romance    | Telugu   | 2h 35m   | 9:00 AM    | 1:00 PM    | 5:00 PM    |
+| 107  | Salaar             | Action     | Telugu   | 2h 55m   | 10:15 AM   | 2:15 PM    | 6:15 PM    |
+| 108  | Jailer             | Action     | Tamil    | 2h 48m   | 11:45 AM   | 3:45 PM    | 7:45 PM    |
+| 109  | Lucky Baskhar      | Drama      | Telugu   | 2h 30m   | 9:45 AM    | 1:45 PM    | 5:45 PM    |
+| 110  | Amaran             | Biography  | Tamil    | 2h 49m   | 10:45 AM   | 2:45 PM    | 6:45 PM    |
++------+--------------------+------------+----------+----------+------------+------------+------------+
+
+========================================
+             CUSTOMER MENU
+========================================
+1. View Movies
+2. Search Movie
+3. Book Ticket
+4. View My Booking
+5. Cancel Ticket
+6. Logout
+
+Enter Your Choice : 3
+
+==============================================
+             MOVIE TICKET BOOKING
+==============================================
+
+Welcome Pavithra!
+
++---------------------------------------------------------------------------------------------------------------+
+|                                         AVAILABLE MOVIES                                                     |
++---------------------------------------------------------------------------------------------------------------+
+| ID   | Movie Name         | Category   | Language | Duration | Morning    | Afternoon  | Evening    |
++------+--------------------+------------+----------+----------+------------+------------+------------+
+| 101  | Kalki 2898 AD      | Sci-Fi     | Telugu   | 2h 45m   | 10:00 AM   | 2:00 PM    | 6:00 PM    |
+| 102  | Pushpa 2           | Action     | Telugu   | 3h 10m   | 11:00 AM   | 3:00 PM    | 7:00 PM    |
+| 103  | Coolie             | Action     | Tamil    | 2h 40m   | 9:30 AM    | 1:30 PM    | 5:30 PM    |
+| 104  | Kingdom            | Action     | Telugu   | 2h 30m   | 10:30 AM   | 2:30 PM    | 6:30 PM    |
+| 105  | Leo                | Action     | Tamil    | 2h 44m   | 11:30 AM   | 3:30 PM    | 7:30 PM    |
+| 106  | Hi Nanna           | Romance    | Telugu   | 2h 35m   | 9:00 AM    | 1:00 PM    | 5:00 PM    |
+| 107  | Salaar             | Action     | Telugu   | 2h 55m   | 10:15 AM   | 2:15 PM    | 6:15 PM    |
+| 108  | Jailer             | Action     | Tamil    | 2h 48m   | 11:45 AM   | 3:45 PM    | 7:45 PM    |
+| 109  | Lucky Baskhar      | Drama      | Telugu   | 2h 30m   | 9:45 AM    | 1:45 PM    | 5:45 PM    |
+| 110  | Amaran             | Biography  | Tamil    | 2h 49m   | 10:45 AM   | 2:45 PM    | 6:45 PM    |
++------+--------------------+------------+----------+----------+------------+------------+------------+
+
+Enter Movie ID : 106
+
+Choose Show Timing
+1. 9:00 AM
+2. 1:00 PM
+3. 5:00 PM
+Enter Choice : 1
+
+Ticket Classes
+1. Silver (₹150)
+2. Gold (₹200)
+3. Platinum (₹300)
+Choose Ticket Class : 1
+Enter Number of Tickets (1-6) : 1
+
+==============================================
+              SCREEN THIS WAY
+==============================================
+
+PLATINUM (₹300)
+[P1] [P2] [P3] [P4] [P5] 
+[Q1] [Q2] [Q3] [Q4] [Q5] 
+
+GOLD (₹200)
+[G1] [G2] [G3] [G4] [G5] 
+[H1] [H2] [H3] [H4] [H5] 
+[I1] [I2] [I3] [I4] [I5] 
+
+SILVER (₹150)
+[S1] [S2] [S3] [S4] [S5] 
+[T1] [T2] [T3] [T4] [T5] 
+[U1] [U2] [U3] [U4] [U5] 
+
+XX = Already Booked
+==============================================
+
+Enter Seat Numbers
+Seat 1 : g1
+Choose only Silver seats (S, T, U).
+Seat 1 : p1
+Choose only Silver seats (S, T, U).
+Seat 1 : s1
+
+=========== PAYMENT ===========
+1. UPI
+2. Debit Card
+3. Credit Card
+4. Cash
+Choose Payment Method : 1
+
+==============================================
+          BOOKING SUCCESSFUL
+==============================================
+Booking ID      : 1001
+Customer Name   : Pavithra
+Mobile Number   : 9987678987
+Movie           : Hi Nanna
+Language        : Telugu
+Show Timing     : 9:00 AM
+Ticket Class    : Silver
+Seats           : [S1]
+No. of Tickets  : 1
+Amount Paid     : ₹150.0
+Payment Method  : UPI
+Booking Status  : CONFIRMED
+==============================================
+Thank You for Booking with
+🎬 SILVER SCREEN CINEMAS 🎬
+Enjoy Your Show!
+==============================================
+
+========================================
+             CUSTOMER MENU
+========================================
+1. View Movies
+2. Search Movie
+3. Book Ticket
+4. View My Booking
+5. Cancel Ticket
+6. Logout
+
+Enter Your Choice : 4
+
+============== MY BOOKINGS ==============
+-----------------------------------------
+Booking ID      : 1001
+Movie           : Hi Nanna
+Show Timing     : 9:00 AM
+Ticket Class    : Silver
+Seats           : [S1]
+Tickets         : 1
+Amount          : ₹150.0
+Payment         : UPI
+Status          : CONFIRMED
+
+========================================
+             CUSTOMER MENU
+========================================
+1. View Movies
+2. Search Movie
+3. Book Ticket
+4. View My Booking
+5. Cancel Ticket
+6. Logout
+
+Enter Your Choice : 6
+
+Logged Out Successfully.
+
++------------------------------------------------------+
+|******************************************************|
+|        WELCOME TO SILVER SCREEN CINEMAS              |
+|           MOVIE TICKET BOOKING SYSTEM                |
+|======================================================|
+|        Lights... Camera... Action!                   |
+|      Book Your Favourite Movie Tickets Easily!       |
+|******************************************************|
++------------------------------------------------------+
+1. Customer Registration
+2. Customer Login
+3. Theatre Manager Login
+4. Exit
+
+Enter Your Choice : 
