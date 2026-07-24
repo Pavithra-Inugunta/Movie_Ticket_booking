@@ -16,12 +16,11 @@ public class Customer {
 
     public static Customer loggedInCustomer = null;
 
-    // Default Constructor
+
     public Customer() {
 
     }
 
-    // Parameterized Constructor
     public Customer(String customerName, int age, long mobileNumber, String password) {
         this.customerName = customerName;
         this.age = age;
@@ -29,7 +28,6 @@ public class Customer {
         this.password = password;
     }
 
-    // Getters
     public String getCustomerName() {
         return customerName;
     }
@@ -46,7 +44,6 @@ public class Customer {
         return password;
     }
 
-    // Customer Registration
     public void registerCustomer() {
 
         System.out.println("\n========== CUSTOMER REGISTRATION ==========");
@@ -148,7 +145,6 @@ public class Customer {
         System.out.println("\nCustomer Registered Successfully.");
     }
 
-    // Customer Login
     public boolean customerLogin() {
 
         System.out.println("\n========== CUSTOMER LOGIN ==========");
@@ -191,7 +187,6 @@ public class Customer {
         return false;
     }
 
-    // Display Registered Customers
     public void displayCustomers() {
 
         System.out.println("\n========== REGISTERED CUSTOMERS ==========");
