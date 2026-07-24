@@ -9,7 +9,6 @@ public class TheatreManager {
 
     static Scanner sc = new Scanner(System.in);
 
-    // Theatre Manager Login
     public boolean managerLogin() {
 
         System.out.println("\n========== THEATRE MANAGER LOGIN ==========");
@@ -30,28 +29,25 @@ public class TheatreManager {
         return false;
     }
 
-    // View Registered Customers
     public void viewRegisteredCustomers(Customer customer) {
 
         customer.displayCustomers();
 
     }
 
-    // View All Bookings
     public void viewAllBookings() {
 
         System.out.println("\nView All Bookings - Under Development");
 
     }
 
-    // Revenue Report
     public void viewRevenueReport() {
 
         System.out.println("\nRevenue Report - Under Development");
 
     }
 
-    // Theatre Statistics
+
     public void viewTheatreStatistics() {
 
         System.out.println("\nTheatre Statistics - Under Development");
