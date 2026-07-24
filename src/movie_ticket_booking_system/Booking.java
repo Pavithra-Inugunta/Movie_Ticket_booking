@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Booking {
-
-    // Booking Details
     private int bookingId;
     private long mobileNumber;
     private int movieId;
@@ -19,7 +17,6 @@ public class Booking {
     private String paymentMethod;
     private String bookingStatus;
 
-    // Static Variables
     static Scanner sc = new Scanner(System.in);
 
     static HashMap<Integer, Booking> bookings = new HashMap<>();
@@ -27,12 +24,10 @@ public class Booking {
 
     static int bookingCounter = 1001;
 
-    // Default Constructor
     public Booking() {
 
     }
 
-    // Parameterized Constructor
     public Booking(long mobileNumber,
                    int movieId,
                    String movieName,
